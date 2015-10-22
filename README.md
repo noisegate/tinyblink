@@ -21,5 +21,11 @@ avrdude -c avrisp
 
 [fuse](http://www.engbedded.com/cgi-bin/fc.cgi/)
 
+At least I did, using
+ avrdude -c stk500 -p attiny45 -U lfuse:w:0x62:m 
+
+
+
+
 #took some info from 
 [ladyada](http://www.ladyada.net/learn/avr/avrdude.html)
